@@ -3,7 +3,7 @@
   become: yes
   become_user: decide
   git:
-    repo: 'https://github.com/wadobo/decide.git'
+    repo: 'https://github.com/josgamdia1/EGC-1819-1030.git'
     dest: /home/decide/decide
     version: master
 
@@ -11,7 +11,7 @@
   become: yes
   become_user: decide
   pip:
-    name: "gunicorn"
+    name: 'gunicorn'
     virtualenv: /home/decide/venv
     virtualenv_python: python3
 
